@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BrushConfigUI.cpp" />
+    <ClCompile Include="correlation.cpp" />
+    <ClCompile Include="FltDesignUI.cpp" />
+    <ClCompile Include="HelpPageUI.cpp" />
+    <ClCompile Include="ImgFilterUI.cpp" />
+    <ClCompile Include="ImgFltAux.cpp" />
+    <ClCompile Include="ImgFltMain.cpp" />
+    <ClCompile Include="ImgView.cpp" />
+    <ClCompile Include="iScissor.cpp" />
+    <ClCompile Include="ScissorPanelUI.cpp" />
+    <ClCompile Include="ImageLib\FileIO.cpp">
+      <Filter>ImageLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLib\Image.cpp">
+      <Filter>ImageLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLib\RefCntMem.cpp">
+      <Filter>ImageLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BrushConfigUI.h" />
+    <ClInclude Include="correlation.h" />
+    <ClInclude Include="FltDesignUI.h" />
+    <ClInclude Include="HelpPageUI.h" />
+    <ClInclude Include="ImgFilterUI.h" />
+    <ClInclude Include="imgflt.h" />
+    <ClInclude Include="ImgFltAux.h" />
+    <ClInclude Include="ImgView.h" />
+    <ClInclude Include="iScissor.h" />
+    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="ScissorPanelUI.h" />
+    <ClInclude Include="ImageLib\FileIO.h">
+      <Filter>ImageLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLib\Image.h">
+      <Filter>ImageLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLib\RefCntMem.h">
+      <Filter>ImageLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImageLib">
+      <UniqueIdentifier>{7e94f20c-c3e1-4b63-8dde-a79f371f26cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageLib\Image.inl">
+      <Filter>ImageLib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
